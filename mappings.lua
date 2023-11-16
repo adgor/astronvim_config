@@ -25,4 +25,8 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  x = {
+    -- add byME
+  ["<leader>p"] = {"\"_dP", desc = "Save previous saved"}
+  },
 }
